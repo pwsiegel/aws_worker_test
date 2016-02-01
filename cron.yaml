@@ -1,0 +1,5 @@
+version: 1
+cron:
+ - name: "execute-tasks"      # required - unique across all entries in this file
+   url: "/tasks"              # required - does not need to be unique
+   schedule: "*/1 * * * *"    # required - does not need to be unique
